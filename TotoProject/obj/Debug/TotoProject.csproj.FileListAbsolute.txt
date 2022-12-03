@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\TotoProject\TotoProject\bin\Debug\TotoProject.exe.config
+C:\Users\User\source\repos\TotoProject\TotoProject\bin\Debug\TotoProject.exe
+C:\Users\User\source\repos\TotoProject\TotoProject\bin\Debug\TotoProject.pdb
+C:\Users\User\source\repos\TotoProject\TotoProject\obj\Debug\TotoProject.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\TotoProject\TotoProject\obj\Debug\TotoProject.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\repos\TotoProject\TotoProject\obj\Debug\TotoProject.Form1.resources
+C:\Users\User\source\repos\TotoProject\TotoProject\obj\Debug\TotoProject.Properties.Resources.resources
+C:\Users\User\source\repos\TotoProject\TotoProject\obj\Debug\TotoProject.csproj.GenerateResource.cache
+C:\Users\User\source\repos\TotoProject\TotoProject\obj\Debug\TotoProject.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\TotoProject\TotoProject\obj\Debug\TotoProject.exe
+C:\Users\User\source\repos\TotoProject\TotoProject\obj\Debug\TotoProject.pdb
