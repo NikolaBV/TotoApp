@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.rb6ot49 = new System.Windows.Forms.RadioButton();
             this.rb6ot42 = new System.Windows.Forms.RadioButton();
             this.rb5ot35 = new System.Windows.Forms.RadioButton();
@@ -299,8 +300,9 @@
             this.Controls.Add(this.rb5ot35);
             this.Controls.Add(this.rb6ot42);
             this.Controls.Add(this.rb6ot49);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Тото (Случайни числа)";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yellowCircle)).EndInit();
