@@ -49,6 +49,7 @@
             this.txtboxShestoChislo = new System.Windows.Forms.TextBox();
             this.txtboxPetoChislo = new System.Windows.Forms.TextBox();
             this.txtboxChetvurtoChislo = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yellowCircle)).BeginInit();
@@ -83,6 +84,7 @@
             this.rb5ot35.TabIndex = 2;
             this.rb5ot35.TabStop = true;
             this.rb5ot35.UseVisualStyleBackColor = true;
+            this.rb5ot35.Click += new System.EventHandler(this.rb5ot35_Click);
             // 
             // pictureBox2
             // 
@@ -154,6 +156,7 @@
             // lblPurvoChislo
             // 
             this.lblPurvoChislo.AutoSize = true;
+            this.lblPurvoChislo.BackColor = System.Drawing.Color.Transparent;
             this.lblPurvoChislo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblPurvoChislo.Location = new System.Drawing.Point(24, 160);
             this.lblPurvoChislo.Name = "lblPurvoChislo";
@@ -164,6 +167,7 @@
             // lblVtoroChislo
             // 
             this.lblVtoroChislo.AutoSize = true;
+            this.lblVtoroChislo.BackColor = System.Drawing.Color.Transparent;
             this.lblVtoroChislo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblVtoroChislo.Location = new System.Drawing.Point(24, 214);
             this.lblVtoroChislo.Name = "lblVtoroChislo";
@@ -174,6 +178,7 @@
             // lblTretoChislo
             // 
             this.lblTretoChislo.AutoSize = true;
+            this.lblTretoChislo.BackColor = System.Drawing.Color.Transparent;
             this.lblTretoChislo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblTretoChislo.Location = new System.Drawing.Point(24, 264);
             this.lblTretoChislo.Name = "lblTretoChislo";
@@ -184,6 +189,7 @@
             // lblShestoChislo
             // 
             this.lblShestoChislo.AutoSize = true;
+            this.lblShestoChislo.BackColor = System.Drawing.Color.Transparent;
             this.lblShestoChislo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblShestoChislo.Location = new System.Drawing.Point(243, 264);
             this.lblShestoChislo.Name = "lblShestoChislo";
@@ -194,6 +200,7 @@
             // lblPetoChislo
             // 
             this.lblPetoChislo.AutoSize = true;
+            this.lblPetoChislo.BackColor = System.Drawing.Color.Transparent;
             this.lblPetoChislo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblPetoChislo.Location = new System.Drawing.Point(243, 214);
             this.lblPetoChislo.Name = "lblPetoChislo";
@@ -204,6 +211,7 @@
             // lblChetvurtoChislo
             // 
             this.lblChetvurtoChislo.AutoSize = true;
+            this.lblChetvurtoChislo.BackColor = System.Drawing.Color.Transparent;
             this.lblChetvurtoChislo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblChetvurtoChislo.Location = new System.Drawing.Point(243, 160);
             this.lblChetvurtoChislo.Name = "lblChetvurtoChislo";
@@ -253,12 +261,23 @@
             this.txtboxChetvurtoChislo.Size = new System.Drawing.Size(27, 20);
             this.txtboxChetvurtoChislo.TabIndex = 18;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(24, 323);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(407, 23);
+            this.button1.TabIndex = 21;
+            this.button1.Text = "Генерирай числата";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.buttonGenerateNumbers_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::TotoProject.Properties.Resources.background;
-            this.ClientSize = new System.Drawing.Size(452, 336);
+            this.ClientSize = new System.Drawing.Size(452, 358);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtboxShestoChislo);
             this.Controls.Add(this.txtboxPetoChislo);
             this.Controls.Add(this.txtboxChetvurtoChislo);
@@ -313,6 +332,7 @@
         private System.Windows.Forms.TextBox txtboxShestoChislo;
         private System.Windows.Forms.TextBox txtboxPetoChislo;
         private System.Windows.Forms.TextBox txtboxChetvurtoChislo;
+        private System.Windows.Forms.Button button1;
     }
 }
 
